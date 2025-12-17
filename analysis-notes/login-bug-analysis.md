@@ -1,24 +1,13 @@
-# Analýza chyby přihlášení
 
-## Popis chyby
-Uživatelé se nemohou přihlásit do systému, když zadávají správné údaje.
+# AI-assisted Bug Analysis
 
-## Kroky k reprodukci
-1. Otevřete přihlašovací stránku.
-2. Zadejte platné uživatelské jméno a heslo.
-3. Klikněte na tlačítko „Přihlásit se“.
+## BUG-01 Login does not redirect user
 
-## Očekávané chování
-Uživatel by měl být úspěšně přihlášen.
+Possible causes suggested by AI:
+- Frontend login button click not triggering API request
+- Backend authentication endpoint unavailable
+- Client-side validation blocking request silently
 
-## Skutečné chování
-Na obrazovce se objeví chybová zpráva 'Nepodařilo se přihlásit'.
+Final assessment:
+(To be filled after investigation)
 
-## Možné příčiny
-Problém může být způsoben nefunkčním ověřovacím mechanismem.
-
-## Doporučené kroky k opravě
-Zkontrolujte ověřovací skripty a ujistěte se, že fungují správně.
-
-## Další poznámky
-Žádné další poznámky.
